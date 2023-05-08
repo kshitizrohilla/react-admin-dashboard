@@ -1,0 +1,63 @@
+.Sidebar
+{
+  /* border: 1.25px solid red; */
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  transition: all 250ms ease;
+  border-radius: 12.5px;
+  background: rgba(0, 0, 0, 0.3125);
+}
+
+.Logo
+{ 
+  background: #252525;
+  color: #e5e5e5;
+  border-top-right-radius: 12.5px;
+}
+
+.BagLogo
+{
+  width: 17.5%;
+  height: auto;
+  border-radius: 5px;
+  margin: 10px;
+  float: left;
+  filter: invert();
+  opacity: 0.875;
+}
+
+.LogoText
+{
+  font-weight: 500;
+  display: inline-block;
+  line-height: 50px;
+  /* border: 1.25px solid red; */
+}
+
+.MenuItems
+{
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  height: 50px;
+  padding-left: 7.5px;
+  transition: all 250ms ease;
+  cursor: pointer;
+}
+
+.MenuItems:hover
+{
+  background: #ffb38a;
+  color: #252525;
+  transition: all 250ms ease;
+}
+
+.active
+{
+  padding-left: 17.5px;
+  background: #ffb38a;
+  color: #252525;
+  transition: all 250ms ease;
+}

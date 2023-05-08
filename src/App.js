@@ -1,15 +1,15 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import Sidebar from "./components/Sidebar.jsx";
 
-function App() {
-  return (
+function App()
+{
+  return(
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <h1>Comming Soon</h1>
-      </header>
+      <div className="GlassCard">
+        <Sidebar />
+      </div>
     </div>
   );
-}
+};
 
 export default App;
