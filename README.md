@@ -1,5 +1,7 @@
 # React Admin Dashboard
 
+**Visit the website:** https://kshitizrohilla.github.io/react-admin-dashboard/
+
 **Note:** This project is still under development.
 
 **Note:** If you are not able to view the icons run the following command in your terminal: <br />
