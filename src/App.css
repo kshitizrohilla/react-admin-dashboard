@@ -5,17 +5,15 @@
   font-family: "Inter", sans-serif;
   justify-content: center;
   align-items: center;
-  background-color: #bdd4e7;
-  background-image: linear-gradient(#EFE9F4, #5078F2);
+	background: #282c34;
 }
 
 .GlassCard
 {
   display: grid;
-  height: 93.75%;
-  width: 93.75%;
-  border-radius: 12.5px;
-  background: rgba(255, 255, 255, 0.25);
+  height: 100%;
+  width: 100%;
+  background: transparent;
   overflow: hidden;
   color: #fff;
   grid-template-columns: 10rem auto 20rem;

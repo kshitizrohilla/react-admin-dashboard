@@ -5,7 +5,7 @@
   flex-direction: column;
   position: relative;
   transition: all 250ms ease;
-  border-radius: 12.5px;
+  /* border-radius: 12.5px; */
   background: rgba(0, 0, 0, 0.3125);
 }
 
@@ -13,14 +13,14 @@
 { 
   background: #252525;
   color: #e5e5e5;
-  border-top-right-radius: 12.5px;
+  /* border-top-right-radius: 12.5px; */
 }
 
 .BagLogo
 {
   width: 17.5%;
   height: auto;
-  border-radius: 5px;
+  /* border-radius: 5px; */
   margin: 10px;
   float: left;
   filter: invert();

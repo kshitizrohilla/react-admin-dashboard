@@ -1,12 +1,13 @@
 import React, {useState} from "react";
 import Bag from "../media/Bag.png";
+
 import "./Sidebar.css";
 // import {UilEstate} from "@iconscout/react-unicons";
+
 import {SidebarData} from "../Data/Data.js";
 
 const Sidebar = () =>
 {
-
   const [selected, setSelected] = useState(0);
 
   return(
@@ -25,7 +26,6 @@ const Sidebar = () =>
                 <item.icon />
                 <span>{item.heading}</span>
               </div>
-
             )
           })
         }
